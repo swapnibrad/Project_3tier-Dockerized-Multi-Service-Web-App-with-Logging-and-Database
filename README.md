@@ -12,7 +12,7 @@ Project Structure
       │   └── app.py
 
 
-# 🚀 Running the Setup
+## 🚀 Running the Setup
 Step 1: Start services
 docker-compose up -d --build
 
