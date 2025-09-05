@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS access_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    client_ip VARCHAR(50),
+    user_agent VARCHAR(255),
+    accessed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
